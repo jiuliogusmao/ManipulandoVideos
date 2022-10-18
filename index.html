@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,18 @@
     <title>Document</title>
     <!-- CSS -->
     <link href="estilo.css" rel="stylesheet">
- 
+
     <!-- scripts -->
-    <script src="script.js"></script>
+    <script src="javascript.js"></script>
 </head>
+
 <body>
-    <video loop id="meuVideo">
-        <source src="https://www.youtube.com/watch?v=RvnkAtWcKYg" type="video/mp4">
-        Seu navegador não suporta vídeos :(
-      </video>
-   
-      <div class="conteudo">
-          <button id="controle" onclick="controlarVideo()">Assistir vídeo</button>
-      </div>
+    <div class="conteudo">
+        <button id="controle" onclick="controlarVideo()">Assistir vídeo</button>
+    </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zPM1g5Jrwfs" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
 </body>
+
 </html>

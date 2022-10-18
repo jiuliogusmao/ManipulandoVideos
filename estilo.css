@@ -4,19 +4,24 @@
    
   body {
     margin: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
    
   #meuVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
+    width: 500px; 
+    height: 500px;
+
+    /* background-color: teal; */
   }
    
   .conteudo {
-    position: fixed;
-    top: 0;
     background: rgba(255, 255, 255, 0.5);
     color: #f1f1f1;
     width: 100%;
